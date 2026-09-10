@@ -1,0 +1,35 @@
+{
+  "id": "doujinshi",
+  "name": "Doujinshi.info",
+  "description": "Comprehensive doujinshi database with multilingual support",
+  "version": "1.2.0",
+  "author": "Tsumihon",
+  "authorUrl": null,
+  "icon": "library_books",
+  "category": "aggregator",
+  "baseUrl": "https://api.doujinshi.info/v1",
+  "capabilities": {
+    "supportsSearch": true,
+    "supportsGetById": true,
+    "requiresAuth": false,
+    "supportsPagination": true,
+    "supportsImageSearch": false,
+    "supportsIsbnScan": false,
+    "requiresConfiguration": false,
+    "supportsReading": false,
+    "requiresCorsProxy": false
+  },
+  "apiConfig": {
+    "type": "doujinshi_info_api",
+    "endpoints": {
+      "search": "/search",
+      "getById": "/book/{id}"
+    }
+  },
+  "settings": {
+    "type": "none"
+  },
+  "minAppVersion": "1.0.0",
+  "appStoreSafe": true,
+  "visibility": "public"
+}

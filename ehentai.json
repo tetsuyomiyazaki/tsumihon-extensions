@@ -1,0 +1,68 @@
+{
+  "id": "ehentai",
+  "name": "E-hentai",
+  "description": "Large doujinshi archive (supports ExHentai with authentication)",
+  "version": "1.3.0",
+  "author": "Tsumihon",
+  "authorUrl": null,
+  "icon": "archive",
+  "category": "aggregator",
+  "baseUrl": "https://e-hentai.org",
+  "capabilities": {
+    "supportsSearch": true,
+    "supportsGetById": true,
+    "requiresAuth": false,
+    "supportsPagination": true,
+    "supportsImageSearch": true,
+    "supportsIsbnScan": false,
+    "requiresConfiguration": true,
+    "supportsReading": true,
+    "requiresCorsProxy": true,
+    "supportsCategorySearch": true
+  },
+  "apiConfig": {
+    "type": "ehentai_api",
+    "endpoints": {
+      "search": "/",
+      "searchImage": "/",
+      "metadata": "https://api.e-hentai.org/api.php"
+    }
+  },
+  "settings": {
+    "type": "generic",
+    "fields": [
+      {
+        "key": "useExHentai",
+        "type": "bool",
+        "label": "Use ExHentai",
+        "hint": "Requires authentication cookies",
+        "required": false,
+        "defaultValue": false
+      },
+      {
+        "key": "ipbMemberId",
+        "type": "password",
+        "label": "ipb_member_id",
+        "hint": "Cookie value from browser",
+        "required": false
+      },
+      {
+        "key": "ipbPassHash",
+        "type": "password",
+        "label": "ipb_pass_hash",
+        "hint": "Cookie value from browser",
+        "required": false
+      },
+      {
+        "key": "igneousToken",
+        "type": "password",
+        "label": "igneous",
+        "hint": "Cookie value from browser",
+        "required": false
+      }
+    ]
+  },
+  "minAppVersion": "1.0.0",
+  "appStoreSafe": true,
+  "visibility": "public"
+}

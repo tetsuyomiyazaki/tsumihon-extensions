@@ -1,0 +1,42 @@
+{
+  "id": "schale",
+  "name": "Schale Network",
+  "description": "Multi-mirror doujinshi archive network with automatic fallback",
+  "version": "1.2.0",
+  "author": "Tsumihon",
+  "authorUrl": null,
+  "icon": "cloud_sync",
+  "category": "aggregator",
+  "baseUrl": "https://schale.network",
+  "capabilities": {
+    "supportsSearch": true,
+    "supportsGetById": true,
+    "requiresAuth": false,
+    "supportsPagination": true,
+    "supportsImageSearch": false,
+    "supportsIsbnScan": false,
+    "requiresConfiguration": false,
+    "supportsReading": false,
+    "requiresCorsProxy": true
+  },
+  "apiConfig": {
+    "type": "schale_api",
+    "endpoints": {
+      "search": "/api/search",
+      "getById": "/api/gallery/{id}"
+    },
+    "fallbackUrls": [
+      "https://schale.network",
+      "https://anchira.to",
+      "https://gehenna.jp",
+      "https://niyaniya.moe",
+      "https://shupogaki.moe"
+    ]
+  },
+  "settings": {
+    "type": "none"
+  },
+  "minAppVersion": "1.0.0",
+  "appStoreSafe": true,
+  "visibility": "public"
+}

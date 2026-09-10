@@ -1,0 +1,32 @@
+{
+  "id": "mediaarts",
+  "name": "Media Arts DB",
+  "description": "Agency for Cultural Affairs manga/anime database (bunka-cho)",
+  "version": "1.2.0",
+  "author": "Tsumihon",
+  "icon": "account_balance",
+  "category": "reference",
+  "baseUrl": "https://mediaarts-db.artmuseums.go.jp",
+  "capabilities": {
+    "supportsSearch": true,
+    "supportsGetById": true,
+    "requiresAuth": false,
+    "supportsPagination": true,
+    "supportsIsbnScan": false,
+    "requiresConfiguration": false,
+    "supportsReading": false,
+    "requiresCorsProxy": false
+  },
+  "apiConfig": {
+    "type": "mediaarts_api",
+    "endpoints": {
+      "search": "/sparql",
+      "getById": "/sparql"
+    }
+  },
+  "settings": {
+    "type": "none"
+  },
+  "appStoreSafe": true,
+  "visibility": "private"
+}

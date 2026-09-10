@@ -1,0 +1,55 @@
+{
+  "id": "lanraragi",
+  "name": "LANraragi",
+  "description": "Self-hosted manga/doujinshi server - Search and browse your local collection",
+  "version": "1.2.0",
+  "author": "Tsumihon",
+  "authorUrl": null,
+  "icon": "dns",
+  "category": "self_hosted",
+  "baseUrl": "",
+  "capabilities": {
+    "supportsSearch": true,
+    "supportsGetById": true,
+    "requiresAuth": true,
+    "supportsPagination": true,
+    "supportsImageSearch": false,
+    "supportsIsbnScan": false,
+    "requiresConfiguration": true,
+    "supportsReading": true,
+    "requiresCorsProxy": false
+  },
+  "apiConfig": {
+    "type": "lanraragi_api",
+    "endpoints": {
+      "search": "/api/search",
+      "getById": "/api/archives/{id}/metadata"
+    }
+  },
+  "settings": {
+    "type": "generic",
+    "fields": [
+      {
+        "key": "serverUrl",
+        "type": "url",
+        "label": "Server URL",
+        "hint": "Your LANraragi server URL (e.g., http://localhost:3000 or http://192.168.1.100:3000)",
+        "required": true,
+        "default": "http://localhost:3000"
+      },
+      {
+        "key": "apiKey",
+        "type": "password",
+        "label": "API Key",
+        "hint": "API key from LANraragi Config > Security (required if No-Fun Mode is enabled)",
+        "required": false
+      }
+    ]
+  },
+  "minAppVersion": "1.0.0",
+  "metadata": {
+    "note": "Read-only extension for searching and browsing your LANraragi library. Does not modify your archives."
+  },
+  "appStoreSafe": true,
+  "visibility": "selfhosted"
+}
