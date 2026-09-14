@@ -2,12 +2,16 @@
   "id": "doujinshi",
   "name": "Doujinshi.info",
   "description": "Comprehensive doujinshi database with multilingual support",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "author": "Tsumihon",
   "authorUrl": null,
   "icon": "library_books",
   "category": "aggregator",
   "baseUrl": "https://api.doujinshi.info/v1",
+  "hosts": [
+    "doujinshi.info"
+  ],
+  "aiSearchHosts": [],
   "capabilities": {
     "supportsSearch": true,
     "supportsGetById": true,

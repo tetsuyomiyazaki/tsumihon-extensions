@@ -2,12 +2,24 @@
   "id": "ehentai",
   "name": "E-hentai",
   "description": "Large doujinshi archive (supports ExHentai with authentication)",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "author": "Tsumihon",
   "authorUrl": null,
   "icon": "archive",
   "category": "aggregator",
   "baseUrl": "https://e-hentai.org",
+  "hosts": [
+    "e-hentai.org",
+    "exhentai.org"
+  ],
+  "cookieHosts": [
+    "e-hentai.org",
+    "exhentai.org",
+    "upld.e-hentai.org",
+    "api.e-hentai.org",
+    "forums.e-hentai.org",
+    "ehgt.org"
+  ],
   "capabilities": {
     "supportsSearch": true,
     "supportsGetById": true,

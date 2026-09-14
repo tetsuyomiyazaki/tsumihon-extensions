@@ -2,11 +2,15 @@
   "id": "mediaarts",
   "name": "Media Arts DB",
   "description": "Agency for Cultural Affairs manga/anime database (bunka-cho)",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "author": "Tsumihon",
   "icon": "account_balance",
   "category": "reference",
   "baseUrl": "https://mediaarts-db.artmuseums.go.jp",
+  "hosts": [
+    "mediaarts-db.artmuseums.go.jp"
+  ],
+  "aiSearchHosts": [],
   "capabilities": {
     "supportsSearch": true,
     "supportsGetById": true,

@@ -2,12 +2,19 @@
   "id": "nhentai",
   "name": "nHentai",
   "description": "Popular doujinshi and manga aggregator",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "author": "Tsumihon",
   "authorUrl": null,
   "icon": "library_books",
   "category": "aggregator",
   "baseUrl": "https://nhentai.net",
+  "hosts": [
+    "nhentai.net",
+    "nhentai.to",
+    "nhentai.xxx",
+    "i.nhentai.net",
+    "t.nhentai.net"
+  ],
   "capabilities": {
     "supportsSearch": true,
     "supportsGetById": true,

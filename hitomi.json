@@ -2,11 +2,14 @@
   "id": "hitomi",
   "name": "Hitomi.la",
   "description": "Search and browse galleries from Hitomi.la",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "author": "Tsumihon Team",
   "icon": "public",
   "category": "aggregator",
   "baseUrl": "https://hitomi.la",
+  "hosts": [
+    "hitomi.la"
+  ],
   "capabilities": {
     "supportsSearch": true,
     "supportsGetById": true,

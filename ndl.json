@@ -2,11 +2,15 @@
   "id": "ndl",
   "name": "NDL Search",
   "description": "National Diet Library of Japan — comprehensive ISBN and book metadata search",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "author": "Tsumihon",
   "icon": "local_library",
   "category": "reference",
   "baseUrl": "https://iss.ndl.go.jp",
+  "hosts": [
+    "iss.ndl.go.jp"
+  ],
+  "aiSearchHosts": [],
   "capabilities": {
     "supportsSearch": true,
     "supportsGetById": true,
