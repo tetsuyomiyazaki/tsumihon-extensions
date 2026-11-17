@@ -2,8 +2,8 @@
   "id": "hitomi",
   "name": "Hitomi.la",
   "description": "Search and browse galleries from Hitomi.la",
-  "version": "1.3.0",
-  "author": "Tsumihon Team",
+  "version": "1.3.1",
+  "author": "tetsuyomiyazaki",
   "icon": "public",
   "category": "aggregator",
   "baseUrl": "https://hitomi.la",
@@ -33,6 +33,7 @@
   "settings": {
     "type": "none"
   },
+  "mature": true,
   "appStoreSafe": true,
   "visibility": "public"
 }

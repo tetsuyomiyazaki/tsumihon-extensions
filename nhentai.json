@@ -2,8 +2,8 @@
   "id": "nhentai",
   "name": "nHentai",
   "description": "Popular doujinshi and manga aggregator",
-  "version": "1.3.0",
-  "author": "Tsumihon",
+  "version": "1.3.1",
+  "author": "tetsuyomiyazaki",
   "authorUrl": null,
   "icon": "library_books",
   "category": "aggregator",
@@ -37,6 +37,7 @@
     "type": "none"
   },
   "minAppVersion": "1.0.0",
+  "mature": true,
   "appStoreSafe": true,
   "visibility": "public"
 }

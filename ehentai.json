@@ -2,8 +2,8 @@
   "id": "ehentai",
   "name": "E-hentai",
   "description": "Large doujinshi archive (supports ExHentai with authentication)",
-  "version": "1.4.0",
-  "author": "Tsumihon",
+  "version": "1.4.1",
+  "author": "tetsuyomiyazaki",
   "authorUrl": null,
   "icon": "archive",
   "category": "aggregator",
@@ -75,6 +75,7 @@
     ]
   },
   "minAppVersion": "1.0.0",
+  "mature": true,
   "appStoreSafe": true,
   "visibility": "public"
 }

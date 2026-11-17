@@ -2,8 +2,8 @@
   "id": "schale",
   "name": "Schale Network",
   "description": "Multi-mirror doujinshi archive network with automatic fallback",
-  "version": "1.3.0",
-  "author": "Tsumihon",
+  "version": "1.3.1",
+  "author": "tetsuyomiyazaki",
   "authorUrl": null,
   "icon": "cloud_sync",
   "category": "aggregator",
@@ -45,6 +45,7 @@
     "type": "none"
   },
   "minAppVersion": "1.0.0",
+  "mature": true,
   "appStoreSafe": true,
   "visibility": "public"
 }
